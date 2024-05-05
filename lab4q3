@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        let text = "";
+
+        // Initialize the loop with i starting from 1, incrementing i until it equals 5
+        for (let i = 1; i <= 5; i++) {
+            // Append "The number is i" followed by a line break
+            text += "The number is " + i + "<br>";
+        }
+
+        // Set the innerHTML of the paragraph with the ID 'demo' to the text string
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
+
+
